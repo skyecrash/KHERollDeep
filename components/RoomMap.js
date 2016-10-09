@@ -27,9 +27,6 @@ export default class RoomMap extends Component {
     return (
       <View>
         <Text style={styles.titletext}>{"What Map?"}</Text>
-        <View>
-          <Image source={{url: 'http://i.imgur.com/k9NSD.jpg'}} style={styles.photo}/>
-        </View>
       </View>
     );
   }
