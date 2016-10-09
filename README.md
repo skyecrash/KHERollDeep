@@ -8,6 +8,6 @@ red-green indicator colors.
 Please note that running the app in debug mode on a physical device may not load images, most likely due to a bundling issue.
 However, emulated devices do not seem to have the same issue.
 
-Please see the visual-elements branch for logo design and screen stills.
+Please see the visual-elements folder for logo design and screen stills.
 
 (Visual elements were created by Tammie Nguyen.)
