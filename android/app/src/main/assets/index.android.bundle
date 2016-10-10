@@ -81445,12 +81445,7 @@ var _Row=require(652 /* ./Row */);var _Row2=babelHelpers.interopRequireDefault(_
 var styles=_reactNative.StyleSheet.create({
 container:{
 flex:1,
-marginTop:20},
-
-separator:{
-flex:1,
-height:_reactNative.StyleSheet.hairlineWidth,
-backgroundColor:'#8E8E8E'}});var
+marginTop:20}});var
 
 
 
@@ -81468,8 +81463,7 @@ return(
 _react2.default.createElement(_reactNative.ListView,{
 style:styles.container,
 dataSource:this.state.dataSource,
-renderRow:function renderRow(data){return _react2.default.createElement(_Row2.default,data);},
-renderSeparator:function renderSeparator(sectionId,rowID){return _react2.default.createElement(_reactNative.View,{key:rowID,style:styles.separator});}}));
+renderRow:function renderRow(data){return _react2.default.createElement(_Row2.default,data);}}));
 
 
 }}]);return RoomList;}(_react2.default.Component);exports.default=
@@ -81921,13 +81915,19 @@ var _reactNative=require(44 /* react-native */);
 
 
 
+
 var styles=_reactNative.StyleSheet.create({
 titletext:{
 marginTop:15,
+marginBottom:20,
 textAlign:'center',
 fontSize:18,
 fontWeight:'bold',
-color:"#3f3f3f"}});var
+color:"#3f3f3f"},
+
+photo:{
+height:215,
+width:287}});var
 
 
 
